@@ -10,19 +10,31 @@ export const StyledHomeContainer = styled.div`
 `;
 
 export const StyledButton = styled.button`
-  padding: 10px 20px;
-  background-color: #ec7fa9;
-  color: white;
+  padding: 12px 24px;
+  background-color: #f05454;
+  color: #f5f5f5;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(240, 84, 84, 0.4);
+
+  &:hover {
+    background-color: #ff6b6b;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
 `;
 
 export const StyledBakckGroundDiv = styled.div`
   width: 600px;
   height: 60vh;
-  background-color: #ffb8e0;
+  background-color: white;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -31,9 +43,9 @@ export const StyledBakckGroundDiv = styled.div`
 export const StyledTitle = styled.h1`
   font-size: 3rem;
   margin-bottom: 20px;
-  color: rgb(207, 67, 128);
+  color: #30475e;
 `;
 export const StyledDescription = styled.p`
   font-size: 1.2rem;
-  color: rgb(207, 67, 128);
+  color: #121212;
 `;

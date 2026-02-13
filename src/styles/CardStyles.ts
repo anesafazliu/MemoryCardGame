@@ -31,7 +31,7 @@ export const CardFace = styled.div`
 `;
 
 export const StyledCardFront = styled(CardFace)`
-  background-color: #ffb8e0;
+  background-color: #f05454;
   color: white;
 `;
 

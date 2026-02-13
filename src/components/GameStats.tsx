@@ -10,7 +10,7 @@ export default function GameStats({ moves, time }: GameStatsProps) {
         position: "absolute",
         top: "20px",
         left: "20px",
-        color: "#BE5985",
+        color: "#30475E",
         fontWeight: "bold",
       }}
     >

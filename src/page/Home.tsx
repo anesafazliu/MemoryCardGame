@@ -16,31 +16,17 @@ export default function Home() {
         <StyledTitle>Memory Match</StyledTitle>
         <StyledDescription>
           <p>
-            Match all pairs of cards to win.
-            <br />
-            Click two cards at a time to find a pair. Matching cards stay face
-            up.
-            <br />
-            Each pair you flip counts as one move.
-            <br />
-            Your time is tracked, try to finish faster!
-            <br />
-            Cards shuffle after you win or reset.
-            <br />
-            Remember card positions to reduce moves.
-            <br />
-            <b>Tips to Win:</b>
-            <br />
-            Focus on remembering where cards are when they flip back.
-            <br />
-            Start with one section at a time to find pairs faster.
-            <br />
+            Match all pairs to win! <br /> Click two cards at a time—matching
+            pairs stay face up. <br /> Each flip counts as a move and your time
+            is tracked. <br /> Cards shuffle on reset or win. <br />
+            Remember card positions and tackle one section at a time
           </p>
-
           <p> Ready to start?</p>
-        </StyledDescription>
+        </StyledDescription>{" "}
+        <StyledButton onClick={() => navigate("/game")}>
+          Start Game
+        </StyledButton>
       </StyledBakckGroundDiv>
-      <StyledButton onClick={() => navigate("/game")}>Start Game</StyledButton>
     </StyledHomeContainer>
   );
 }
